@@ -98,7 +98,7 @@ function findPhone(type) {
 }
 
 //========== them gio hang  =====================
-const apigiohang = new ApiGH();
+let apigiohang = new ApiGH()
 function ThemGH(id) {
   
   dsdt.arr.forEach(function (item) {
