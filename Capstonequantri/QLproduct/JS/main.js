@@ -87,7 +87,7 @@ function updateproduct(id) {
   
   api.updatephone(sp).then((win) => {
     getlistphone();
-    setlocal();
+   
     document.getElementsByClassName("close")[0].click();
   });
 }
